@@ -4,6 +4,12 @@
  - Try to add skip connections and understand how it benefits overall results
  - Keep the model params under 50k and achieve accuracy of >= 70% under 20 epochs
 
+## Results:
+Normalization     Train Accuracy     Test Accuracy
+BatchNorm          77.30%             76.24%
+GroupNorm          75.09%             75.26%
+LayerNorm          75.26%             72.04%
+
 ## BatchNorm:
 ### Model Summary:
 ```
@@ -53,3 +59,25 @@ Params size (MB): 0.09
 Estimated Total Size (MB): 2.02
 ----------------------------------------------------------------
 ```
+### Metric Curves
+![image](https://github.com/RaviNaik/ERA-SESSION8/assets/23289802/302766c7-7a45-4eb0-86c7-279d43053c4f)
+
+### Misclassified Images
+![image](https://github.com/RaviNaik/ERA-SESSION8/assets/23289802/7a0c384c-58d9-4afc-b41b-6e07023f1a7b)
+
+## GroupNorm:
+### Metric Curves
+![image](https://github.com/RaviNaik/ERA-SESSION8/assets/23289802/79c21b6b-741a-40a9-8ea1-ccd7a590329e)
+
+### Misclassified Images
+![image](https://github.com/RaviNaik/ERA-SESSION8/assets/23289802/5c5b1503-45bb-444b-85ea-c3bf955b7c77)
+
+
+## LayerNorm:
+### Metric Curves
+![image](https://github.com/RaviNaik/ERA-SESSION8/assets/23289802/a03741b4-41de-4045-b248-3e9b3df585dd)
+
+### Misclassified Images
+![image](https://github.com/RaviNaik/ERA-SESSION8/assets/23289802/a371c138-f725-42be-bfc4-c2bdb7f449af)
+
+
