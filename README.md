@@ -6,11 +6,11 @@
 
 ## Results:
 
-| Normalization  |   Train Accuracy  |   Test Accuracy |
-| ---------------------------------------------------- |
-| BatchNorm      |   77.30%          |   76.24%        |
-| GroupNorm      |    75.09%         |   75.26%        |
-| LayerNorm      |    75.26%         |    72.04%       |
+ | Normalization  |   Train Accuracy  |   Test Accuracy |
+ | ---------------|-------------------|-----------------|
+ | BatchNorm      |   77.30%          |   76.24%        |
+ | GroupNorm      |    75.09%         |   75.26%        |
+ | LayerNorm      |    75.26%         |    72.04%       |
 
 ## BatchNorm:
 ### Model Summary:
