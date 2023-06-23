@@ -5,6 +5,7 @@
  - Keep the model params under 50k and achieve accuracy of >= 70% under 20 epochs
 
 ## Results:
+
 | Normalization  |   Train Accuracy  |   Test Accuracy |
 | ---------------------------------------------------- |
 | BatchNorm      |   77.30%          |   76.24%        |
