@@ -12,6 +12,9 @@
  | GroupNorm      |    75.09%         |   75.26%        |
  | LayerNorm      |    75.26%         |    72.04%       |
 
+ - Number of parameters: 22672
+ - Used Skip connections which helped to improve accuracy but added more params
+
 ## BatchNorm:
 ### Model Summary:
 ```
